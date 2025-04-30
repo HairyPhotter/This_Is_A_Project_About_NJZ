@@ -1,4 +1,5 @@
 
+var c;
 function preload(){
   pgnjz = loadImage("njz.png");
   minji= loadImage("minji_e.png");
@@ -10,6 +11,7 @@ function preload(){
 
 function setup() {
   createCanvas(1000, 1000);
+  c = createCanvas(1000, 1000);
   background(0);
   
 }
@@ -19,9 +21,10 @@ function draw() {
   //colourChange();
   image(pgnjz,0,0);
   characterChange();
+  c.mouseClicked(openlink);
 }
 
-/*function colourChange(){
+function colourChange(){
   
    pgnjz.loadPixels();
     let updatedcolour;
@@ -94,26 +97,26 @@ function draw() {
     }
   pgnjz.updatePixels();
   
-}*/
+}
 
 function characterChange(){
       if(mouseX<pgnjz.width*1/5){
         
         image(minji,350,650);
-        mouseClicked(window.open('https://hairyphotter.github.io/Minji_Page/'));
+        
       }
  
       if(mouseX>pgnjz.width*1/5 && mouseX<pgnjz.width*2/5){
         
         image(hanni,350,650);
-        mouseClicked(window.open('https://hairyphotter.github.io/Hanni_Page/'));
+        
       }
 
       
       if(mouseX>pgnjz.width*2/5 && mouseX<pgnjz.width*3/5){
         
         image(dani,350,650);
-        mouseClicked(window.open('https://hairyphotter.github.io/Danielle_Page/'));
+        
       }
       
 
@@ -121,7 +124,7 @@ function characterChange(){
         
         
         image(haerin,350,650);
-        mouseClicked(window.open('https://hairyphotter.github.io/Haerin_Page/'));
+        
       }
       
 
@@ -129,9 +132,41 @@ function characterChange(){
         
         
         image(hyein,350,650);
-        mouseClicked(window.open('https://hairyphotter.github.io/Hyein_Page/'));
+        
       }
 }
 
+function openlink(){
+  if(mouseX<pgnjz.width*1/5){
+        
 
+        window.open('https://hairyphotter.github.io/Minji_Page/');
+      }
+ 
+      if(mouseX>pgnjz.width*1/5 && mouseX<pgnjz.width*2/5){
+        
 
+        window.open('https://hairyphotter.github.io/Hanni_Page/');
+      }
+
+      
+      if(mouseX>pgnjz.width*2/5 && mouseX<pgnjz.width*3/5){
+        
+
+        window.open('https://hairyphotter.github.io/Danielle_Page/');
+      }
+      
+
+      if(mouseX>pgnjz.width*3/5 && mouseX<pgnjz.width*4/5){
+        
+
+        window.open('https://hairyphotter.github.io/Haerin_Page/');
+      }
+      
+
+      if(mouseX>pgnjz.width*4/5){
+        
+       window.open('https://hairyphotter.github.io/Hyein_Page/');
+      }
+  
+}
