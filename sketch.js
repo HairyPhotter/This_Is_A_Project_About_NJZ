@@ -137,34 +137,34 @@ function characterChange(){
 function mouseClick(){
   if(mouseX<pgnjz.width*1/5){
         
-        window.open('http://www.google.com');
+        window.open('https://hairyphotter.github.io/Minji_Page/');
         
       }
  
       if(mouseX>pgnjz.width*1/5 && mouseX<pgnjz.width*2/5){
         
-        window.open('http://www.google.com');
+        window.open('https://hairyphotter.github.io/Hanni_Page/');
         
       }
 
       
       if(mouseX>pgnjz.width*2/5 && mouseX<pgnjz.width*3/5){
         
-        window.open('http://www.google.com');
+        window.open('https://hairyphotter.github.io/Danielle_Page/');
         
       }
       
 
       if(mouseX>pgnjz.width*3/5 && mouseX<pgnjz.width*4/5){
       
-        window.open('http://www.google.com');
+        window.open('https://hairyphotter.github.io/Haerin_Page/');
         
       }
       
 
       if(mouseX>pgnjz.width*4/5){
         
-       window.open('http://www.google.com');
+       window.open('https://hairyphotter.github.io/Hyein_Page/');
         
       }
 }
