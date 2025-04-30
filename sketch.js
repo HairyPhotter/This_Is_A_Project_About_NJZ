@@ -1,4 +1,3 @@
-var c;
 
 function preload(){
   pgnjz = loadImage("njz.png");
@@ -10,7 +9,7 @@ function preload(){
 }
 
 function setup() {
-  c = createCanvas(1000, 1000);
+  createCanvas(1000, 1000);
   background(0);
   
 }
@@ -20,7 +19,7 @@ function draw() {
   //colourChange();
   image(pgnjz,0,0);
   characterChange();
-  c.mouseClick(openLink);
+  mouseClick(openLink);
 }
 
 /*function colourChange(){
