@@ -19,7 +19,7 @@ function draw() {
   //colourChange();
   image(pgnjz,0,0);
   characterChange();
-  mouseClick();
+  mouseClick(jumptolink);
 }
 
 /*function colourChange(){
@@ -135,7 +135,7 @@ function characterChange(){
 }
 
 
-function mouseClick(){
+function jumptolink(){
   if(mouseX<pgnjz.width*1/5){
         
         window.open('https://hairyphotter.github.io/Minji_Page/');
