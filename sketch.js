@@ -100,20 +100,20 @@ function characterChange(){
       if(mouseX<pgnjz.width*1/5){
         
         image(minji,350,650);
-        mouseClick(window.open('https://hairyphotter.github.io/Minji_Page/'));
+        mouseClicked(window.open('https://hairyphotter.github.io/Minji_Page/'));
       }
  
       if(mouseX>pgnjz.width*1/5 && mouseX<pgnjz.width*2/5){
         
         image(hanni,350,650);
-        mouseClick(window.open('https://hairyphotter.github.io/Hanni_Page/'));
+        mouseClicked(window.open('https://hairyphotter.github.io/Hanni_Page/'));
       }
 
       
       if(mouseX>pgnjz.width*2/5 && mouseX<pgnjz.width*3/5){
         
         image(dani,350,650);
-        mouseClick(window.open('https://hairyphotter.github.io/Danielle_Page/'));
+        mouseClicked(window.open('https://hairyphotter.github.io/Danielle_Page/'));
       }
       
 
@@ -121,7 +121,7 @@ function characterChange(){
         
         
         image(haerin,350,650);
-        mouseClick(window.open('https://hairyphotter.github.io/Haerin_Page/'));
+        mouseClicked(window.open('https://hairyphotter.github.io/Haerin_Page/'));
       }
       
 
@@ -129,7 +129,7 @@ function characterChange(){
         
         
         image(hyein,350,650);
-        mouseClick(window.open('https://hairyphotter.github.io/Hyein_Page/'));
+        mouseClicked(window.open('https://hairyphotter.github.io/Hyein_Page/'));
       }
 }
 
