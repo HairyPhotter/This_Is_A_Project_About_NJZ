@@ -19,6 +19,7 @@ function draw() {
   //colourChange();
   image(pgnjz,0,0);
   characterChange();
+  mouseClick();
 }
 
 /*function colourChange(){
