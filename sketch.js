@@ -1,3 +1,4 @@
+var c;
 
 function preload(){
   pgnjz = loadImage("njz.png");
@@ -9,7 +10,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(1000, 1000);
+  c = createCanvas(1000, 1000);
   background(0);
   
 }
@@ -19,7 +20,7 @@ function draw() {
   //colourChange();
   image(pgnjz,0,0);
   characterChange();
-  mouseClick(jumptolink);
+  c.mouseClick(openLink);
 }
 
 /*function colourChange(){
@@ -135,7 +136,7 @@ function characterChange(){
 }
 
 
-function jumptolink(){
+function openLink(){
   if(mouseX<pgnjz.width*1/5){
         
         window.open('https://hairyphotter.github.io/Minji_Page/');
