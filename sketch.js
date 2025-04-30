@@ -132,3 +132,39 @@ function characterChange(){
         
       }
 }
+
+
+function mouseClick(){
+  if(mouseX<pgnjz.width*1/5){
+        
+        window.open('http://www.google.com');
+        
+      }
+ 
+      if(mouseX>pgnjz.width*1/5 && mouseX<pgnjz.width*2/5){
+        
+        window.open('http://www.google.com');
+        
+      }
+
+      
+      if(mouseX>pgnjz.width*2/5 && mouseX<pgnjz.width*3/5){
+        
+        window.open('http://www.google.com');
+        
+      }
+      
+
+      if(mouseX>pgnjz.width*3/5 && mouseX<pgnjz.width*4/5){
+      
+        window.open('http://www.google.com');
+        
+      }
+      
+
+      if(mouseX>pgnjz.width*4/5){
+        
+       window.open('http://www.google.com');
+        
+      }
+}
