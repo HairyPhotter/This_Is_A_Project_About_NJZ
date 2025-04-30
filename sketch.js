@@ -24,7 +24,7 @@ function draw() {
   c.mouseClicked(openlink);
 }
 
-function colourChange(){
+/*function colourChange(){
   
    pgnjz.loadPixels();
     let updatedcolour;
@@ -97,7 +97,7 @@ function colourChange(){
     }
   pgnjz.updatePixels();
   
-}
+}*/
 
 function characterChange(){
       if(mouseX<pgnjz.width*1/5){
